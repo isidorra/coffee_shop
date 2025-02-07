@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-container {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* for html2pdf. */
+/* @layer base {img {display: initial;}}  */
+
